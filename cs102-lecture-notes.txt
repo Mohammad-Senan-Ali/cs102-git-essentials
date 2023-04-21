@@ -1,0 +1,19 @@
+git init: initializes a new Git repository in your current directory, creating a new .git directory to hold all the repository data.
+
+git add: adds files to the staging area, preparing them to be committed. You can add specific files with git add <filename> or add all changes with git add ..
+
+git commit: creates a new commit with the changes in the staging area. You can provide a commit message with the -m flag, like git commit -m "Added new feature X".
+
+git status: shows the current status of your repository, including any changes that have been made since the last commit.
+
+git log: shows a history of all the commits in your repository, including the commit message, author, and timestamp.
+
+git branch: creates a new branch or lists all the existing branches in your repository. You can create a new branch with git branch <branchname>.
+
+git checkout: switches to a different branch, or restores a file to a previous commit. To switch branches, use git checkout <branchname>.
+
+git merge: merges changes from one branch into another. For example, to merge changes from a branch named feature-branch into your current branch, you would run git merge feature-branch.
+
+git pull: fetches the latest changes from a remote repository and merges them into your local repository. This is commonly used when working with others on a project.
+
+git push: pushes your local commits to a remote repository, making them available to others who are working on the same project. You can push your changes to a specific branch with git push <remote> <branch>.
